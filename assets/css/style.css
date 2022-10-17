@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    height: 100vh;
+}
+
+.menu {
+    width: 350px;
+    color: #444749;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-around;
+}
+
+.menu img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.activo {
+    color: #BEC1BB;
+    font-size: 12px;
+}
+
+.iconos {
+    display: flex;
+    width: 50px;
+    justify-content: space-around;
+    color: #828485;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #BEC1BB;
+    border-bottom: 1px solid #BEC1BB;
+}
+
+.boton button {
+    display: flex;
+    justify-content: center;
+    background-color: #A491D2;
+    color: white;
+    border: none;
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.usuario2 {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid #BEC1BB;
+}
+
+.usuario2 img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.mensaje {
+    font-size: 14px;
+}
+
+.principal {
+    width: 100%;
+    background-color: #E8EBE4;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.figura {
+    width: 450px;
+}
+
+.principal img {
+    width: 300px;
+}
+
+h1 {
+    margin: 10px;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+p {
+    font-size: 14px;
+}
+
+
+
